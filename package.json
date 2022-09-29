@@ -2,7 +2,7 @@
   "name": "static-html-webpack-boilerplate",
   "version": "1.1.1",
   "description": "Modern tooling for old-school static webpage development",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
     "lint:js": "./node_modules/.bin/eslint src/js/*.js",
@@ -41,7 +41,7 @@
     "postcss-loader": "^3.0.0",
     "raw-loader": "^4.0.1",
     "sass-loader": "^8.0.2",
-    "style-loader": "^1.0.1",
+    "style-loader": "^2.0.0",
     "stylelint": "^13.6.1",
     "stylelint-config-standard": "^19.0.0",
     "webpack": "^4.44.0",
