@@ -2,7 +2,7 @@
   "name": "static-html-webpack-boilerplate",
   "version": "1.1.1",
   "description": "Modern tooling for old-school static webpage development",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
     "lint:js": "./node_modules/.bin/eslint src/js/*.js",
@@ -30,7 +30,7 @@
     "eslint": "^5.5.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.20.2",
-    "file-loader": "^5.0.2",
+    "file-loader": "^6.2.0",
     "glob": "^7.1.6",
     "html-webpack-plugin": "^3.0.0",
     "http-server": "^0.12.1",
