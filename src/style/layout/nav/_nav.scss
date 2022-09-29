@@ -1,0 +1,78 @@
+
+header{
+position: fixed;
+width: 100%;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo{
+    width: 7rem;
+
+}
+.nav-logo{
+.svg{
+    width: 100%;
+}
+}
+.nav-list{
+&::after{
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI4NC45IDI4NC45Ij48cGF0aCBkPSJtMjgyIDc2LjUtMTQuMi0xNC4zYTkgOSAwIDAgMC0xMy4xIDBMMTQyLjUgMTc0LjQgMzAuMyA2Mi4yYTkgOSAwIDAgMC0xMy4yIDBMMyA3Ni41YTkgOSAwIDAgMCAwIDEzLjFsMTMzIDEzM2E5IDkgMCAwIDAgMTMuMSAwbDEzMy0xMzNhOSA5IDAgMCAwIDAtMTN6Ii8+PC9zdmc+);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 11px;
+    color: #272e31;
+    content: ""!important;
+    display: inline-block;
+    height: 39px;
+    line-height: 37px;
+    position: absolute;
+    right: 9px;
+    top: 13px;
+    transition: all .2s;
+    width: 15px;
+    transform: rotate(-90deg);
+    
+    }
+
+ul{
+    display: flex;
+    gap:25px;
+li{
+    list-style: none;
+
+ a{
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #6b6b6e;
+    font-family: 'Alliance No. 2',sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+}
+}
+}
+.nav-button{
+display: flex;
+border-radius: 6px;
+background-color: #E6E6E6;
+height: 25px;
+align-items: center;
+justify-content: center;
+padding-left: 10px;
+padding-right: 30px;
+margin-top: 10px;
+
+a{
+font-size: 10px;
+    line-height: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Alliance No. 2',sans-serif;
+    color: #333;
+}
+}

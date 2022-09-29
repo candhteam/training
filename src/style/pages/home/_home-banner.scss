@@ -1,0 +1,90 @@
+.home-banner{
+    width: 100%;
+    height: 100vh;
+    background-color:#f3f3f3;
+}
+.banner__header--center{
+    display: flex;
+    justify-content: center;
+}
+.banner__header{
+    position: relative;
+    z-index: 1;
+    width: 46rem;
+ padding-top: 160px;
+}
+.banner__header{
+ h1{
+    font-size: 5.5rem;
+    line-height: 1em;
+    font-weight: 200;
+    letter-spacing: -.04em;
+    color: #323233;
+    margin: 0;
+    text-align: center;
+    font-family: 'Alliance No. 2',sans-serif;
+    
+}
+}
+.header__sub-items{
+    padding-left: 20px;
+    padding-top: 120px;
+}
+.sub-item--flex{
+    display: flex;
+
+    
+}
+.request__button{
+    display: flex;
+    height: 3.4rem;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #3a3a3e;
+    border-radius: 5px;
+    background-color: #161618;
+}
+.request__button {
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+ 
+}
+}
+.button__text{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+font-family: 'Gt America Mono',sans-serif;
+margin-left: 1rem;
+    margin-right: 1rem;
+ text-transform: uppercase;
+ font-size: .65rem;
+}
+.button-svg{ 
+   padding-left: 1rem;
+   padding-right: 1rem;
+   height: 3.4rem;
+   border-left: 1px solid #3a3a3e;
+   svg{
+    max-width: 14px;
+    width: 100%;
+   }
+}
+.banner__sub-discription{
+    width: 16.7rem;
+    margin-left: 30px;
+}
+.banner__sub-discription{
+ p{
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'Alliance No. 2',sans-serif;
+    color: #726c6c;
+    font-weight: 300;
+    margin: 0;
+}
+}

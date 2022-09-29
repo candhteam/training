@@ -2,7 +2,7 @@
 //$host:'../pics/';
 //$host: 'http://assets.aversio.com/resources/resellers/2/138/125/img/';
 //media query
-$media-xlg: 1500px; //120em
+// $media-xlg: 1500px; //120em
 $media-lg: 1200px; //75em
 $media-md: 992px; //62em
 $media-sm: 768px; //48em
@@ -21,3 +21,14 @@ $media-xs: 544px; //34em
 // $regular:400;
 // $semi-bold:600;
 // $bold:700;
+.container{
+    max-width: 1800px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+}
+body{
+    margin: auto 0; 
+     height: auto;
+ }
