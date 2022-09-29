@@ -2,7 +2,7 @@
   "name": "static-html-webpack-boilerplate",
   "version": "1.1.1",
   "description": "Modern tooling for old-school static webpage development",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
     "lint:js": "./node_modules/.bin/eslint src/js/*.js",
@@ -37,7 +37,7 @@
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.13.1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "pa11y-ci": "^2.1.1",
+    "pa11y-ci": "^3.0.1",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^4.0.1",
     "sass-loader": "^8.0.2",
