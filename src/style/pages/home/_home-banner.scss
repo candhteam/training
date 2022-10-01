@@ -3,6 +3,12 @@
     height: 100vh;
     background-color:#f3f3f3;
 }
+.banner__wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
 .banner__header--center{
     display: flex;
     justify-content: center;

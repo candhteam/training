@@ -2,6 +2,7 @@
     width: 100%;
     height: auto;
     background-color: #161618;
+    overflow-x: hidden;
 }
 
 .bnq__top-banner--flex{
@@ -68,17 +69,28 @@ svg{
     display: flex;
    gap: 100px;
    margin-left:50px;
+   margin-top: 10%;
 }
 .bqn__section-header{
     max-width: 40.3rem;
     width: 100%;
 }
-.bqn__section-header{
+.text{
+    // padding-top: 10%;
  h2{
     font-size: 5.5rem;
     line-height: 1em;
     font-weight: 300;
     color: white;
+    background: linear-gradient(to right,rgb(255,255,255) 50%,rgb(37,37,37) 50%);
+    background-size: 200% 100%;
+    background-position-x: 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-bottom: -250px;
+    margin-left: 50px;
+
 }
 }
 .bqn__sub-header{
@@ -100,6 +112,7 @@ svg{
     justify-content: center;
     gap: 20px;
     padding-bottom: 50px;
+    margin-top: 10%;
 }
 .bqn__card{
     width: 23vw;
@@ -109,4 +122,26 @@ svg{
     padding: 28px;
     background-color: black;
     border-radius: 15px;
+    color: white;
 }
+// [data-animate-in] {
+//     opacity: 1;
+//     transition: transform 0.8s ease, opacity 0.8s ease
+// }
+
+// [data-animate-in="up"] {
+//     transform: translate3d(0, 24px, 0)
+// }
+// .mask {
+//     width: 100%;
+//     height:150%;
+//     position: absolute;
+//     background: #161616;
+//     left: 0;
+//     top: 0;
+//     opacity: 0.8;
+//   }
+
+// #smooth-content {
+//     will-change: transform;
+//   }
